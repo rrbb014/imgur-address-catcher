@@ -12,3 +12,6 @@ markdown에 그림을 올릴때 imgur에 업로드 하고 주소를 하나씩 �
 
 ## Example
 ```python imgac.py sample.png```
+
+## License
+[MIT license](https://github.com/nishanths/license/blob/master/LICENSE)
