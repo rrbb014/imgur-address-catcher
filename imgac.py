@@ -9,12 +9,12 @@ import pyperclip
 from dotenv import load_dotenv
 
 
-DOTENV_DIR = '_______'
+DOTENV_DIR = '.env'
 existDOTENV = os.path.exists(DOTENV_DIR)
 
 # load dot-env file
 if existDOTENV:
-	load_dotenv(DOTENV_DIR)
+	load_dotenv(DOTENV_DIR, verbose=True)
 
 def set_parser():
 	parser = argparse.ArgumentParser(description="You get imgur url of image(s) with this script!")
